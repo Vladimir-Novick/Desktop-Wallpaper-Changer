@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{148C068F-30CD-4B6D-AAC7-796E96C50C75}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <OutputType>WinExe</OutputType>
     <RootNamespace>DesktopWallpaperChanger</RootNamespace>
     <AssemblyName>DesktopWallpaperChanger</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
