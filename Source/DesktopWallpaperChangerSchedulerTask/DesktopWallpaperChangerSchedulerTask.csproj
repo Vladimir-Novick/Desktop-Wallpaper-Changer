@@ -5,9 +5,9 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{148C068F-30CD-4B6D-AAC7-796E96C50C75}</ProjectGuid>
-    <OutputType>WinExe</OutputType>
-    <RootNamespace>SheduleDecktopChanger</RootNamespace>
-    <AssemblyName>SheduleDecktopChanger</AssemblyName>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>DesktopWallpaperChanger</RootNamespace>
+    <AssemblyName>DesktopWallpaperChanger</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -58,12 +58,6 @@
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="WallpaperChangerStart.cs" />
-    <Compile Include="WallpaperServiceInstaller.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="WallpaperServiceInstaller.Designer.cs">
-      <DependentUpon>WallpaperServiceInstaller.cs</DependentUpon>
-    </Compile>
     <Compile Include="WallpaperStyle.cs" />
     <Compile Include="Wallpapper.cs" />
   </ItemGroup>
