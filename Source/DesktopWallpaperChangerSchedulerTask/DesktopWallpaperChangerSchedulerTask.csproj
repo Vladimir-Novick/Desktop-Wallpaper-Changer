@@ -39,7 +39,9 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.configuration" />
+    <Reference Include="System.Configuration.Install" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -56,6 +58,12 @@
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="WallpaperChangerStart.cs" />
+    <Compile Include="WallpaperServiceInstaller.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WallpaperServiceInstaller.Designer.cs">
+      <DependentUpon>WallpaperServiceInstaller.cs</DependentUpon>
+    </Compile>
     <Compile Include="WallpaperStyle.cs" />
     <Compile Include="Wallpapper.cs" />
   </ItemGroup>
